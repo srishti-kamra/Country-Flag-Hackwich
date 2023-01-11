@@ -11,6 +11,7 @@
 		44AA0014296F0E38005ADEA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0013296F0E38005ADEA8 /* ContentView.swift */; };
 		44AA0016296F0E3A005ADEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA0015296F0E3A005ADEA8 /* Assets.xcassets */; };
 		44AA0019296F0E3A005ADEA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA0018296F0E3A005ADEA8 /* Preview Assets.xcassets */; };
+		44AA0023296F0FF6005ADEA8 /* Question .swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0022296F0FF6005ADEA8 /* Question .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		44AA0013296F0E38005ADEA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44AA0015296F0E3A005ADEA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44AA0018296F0E3A005ADEA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44AA0022296F0FF6005ADEA8 /* Question .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				44AA0011296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift */,
-				44AA0013296F0E38005ADEA8 /* ContentView.swift */,
-				44AA0015296F0E3A005ADEA8 /* Assets.xcassets */,
+				44AA0021296F0F70005ADEA8 /* Models */,
+				44AA001F296F0F45005ADEA8 /* Views */,
+				44AA0020296F0F66005ADEA8 /* Components  */,
 				44AA0017296F0E3A005ADEA8 /* Preview Content */,
 			);
 			path = "Country Flag Hackwich";
@@ -62,9 +65,33 @@
 		44AA0017296F0E3A005ADEA8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				44AA0015296F0E3A005ADEA8 /* Assets.xcassets */,
 				44AA0018296F0E3A005ADEA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44AA001F296F0F45005ADEA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44AA0013296F0E38005ADEA8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44AA0020296F0F66005ADEA8 /* Components  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Components ";
+			sourceTree = "<group>";
+		};
+		44AA0021296F0F70005ADEA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44AA0022296F0FF6005ADEA8 /* Question .swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44AA0014296F0E38005ADEA8 /* ContentView.swift in Sources */,
+				44AA0023296F0FF6005ADEA8 /* Question .swift in Sources */,
 				44AA0012296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
