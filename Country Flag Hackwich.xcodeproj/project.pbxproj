@@ -12,6 +12,10 @@
 		44AA0016296F0E3A005ADEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA0015296F0E3A005ADEA8 /* Assets.xcassets */; };
 		44AA0019296F0E3A005ADEA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA0018296F0E3A005ADEA8 /* Preview Assets.xcassets */; };
 		44AA0023296F0FF6005ADEA8 /* Question .swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0022296F0FF6005ADEA8 /* Question .swift */; };
+		44AA0025296F1169005ADEA8 /* CustomButton .swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0024296F1169005ADEA8 /* CustomButton .swift */; };
+		44AA0027296F12CC005ADEA8 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0026296F12CC005ADEA8 /* ProgressBar.swift */; };
+		44AA002929705D80005ADEA8 /* AnswerRow .swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA002829705D80005ADEA8 /* AnswerRow .swift */; };
+		44AA002B29706004005ADEA8 /* QuestionView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA002A29706004005ADEA8 /* QuestionView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		44AA0015296F0E3A005ADEA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44AA0018296F0E3A005ADEA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44AA0022296F0FF6005ADEA8 /* Question .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question .swift"; sourceTree = "<group>"; };
+		44AA0024296F1169005ADEA8 /* CustomButton .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomButton .swift"; sourceTree = "<group>"; };
+		44AA0026296F12CC005ADEA8 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		44AA002829705D80005ADEA8 /* AnswerRow .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnswerRow .swift"; sourceTree = "<group>"; };
+		44AA002A29706004005ADEA8 /* QuestionView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionView .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				44AA0013296F0E38005ADEA8 /* ContentView.swift */,
+				44AA002A29706004005ADEA8 /* QuestionView .swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +91,9 @@
 		44AA0020296F0F66005ADEA8 /* Components  */ = {
 			isa = PBXGroup;
 			children = (
+				44AA0024296F1169005ADEA8 /* CustomButton .swift */,
+				44AA0026296F12CC005ADEA8 /* ProgressBar.swift */,
+				44AA002829705D80005ADEA8 /* AnswerRow .swift */,
 			);
 			path = "Components ";
 			sourceTree = "<group>";
@@ -165,7 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				44AA0014296F0E38005ADEA8 /* ContentView.swift in Sources */,
+				44AA0025296F1169005ADEA8 /* CustomButton .swift in Sources */,
 				44AA0023296F0FF6005ADEA8 /* Question .swift in Sources */,
+				44AA002929705D80005ADEA8 /* AnswerRow .swift in Sources */,
+				44AA002B29706004005ADEA8 /* QuestionView .swift in Sources */,
+				44AA0027296F12CC005ADEA8 /* ProgressBar.swift in Sources */,
 				44AA0012296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
