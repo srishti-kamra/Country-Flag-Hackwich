@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4432FDE22982450500EC2F57 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432FDE12982450500EC2F57 /* QuizManager.swift */; };
+		4432FDE42982454300EC2F57 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432FDE32982454300EC2F57 /* Data.swift */; };
 		44AA0012296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0011296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift */; };
 		44AA0014296F0E38005ADEA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0013296F0E38005ADEA8 /* ContentView.swift */; };
 		44AA0016296F0E3A005ADEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA0015296F0E3A005ADEA8 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4432FDE12982450500EC2F57 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		4432FDE32982454300EC2F57 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		44AA000E296F0E38005ADEA8 /* Country Flag Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Flag Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AA0011296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_HackwichApp.swift; sourceTree = "<group>"; };
 		44AA0013296F0E38005ADEA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				44AA0022296F0FF6005ADEA8 /* Question .swift */,
+				4432FDE32982454300EC2F57 /* Data.swift */,
+				4432FDE12982450500EC2F57 /* QuizManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,12 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4432FDE22982450500EC2F57 /* QuizManager.swift in Sources */,
 				44AA0014296F0E38005ADEA8 /* ContentView.swift in Sources */,
 				44AA0025296F1169005ADEA8 /* CustomButton .swift in Sources */,
 				44AA0023296F0FF6005ADEA8 /* Question .swift in Sources */,
 				44AA002929705D80005ADEA8 /* AnswerRow .swift in Sources */,
 				44AA002B29706004005ADEA8 /* QuestionView .swift in Sources */,
 				44AA0027296F12CC005ADEA8 /* ProgressBar.swift in Sources */,
+				4432FDE42982454300EC2F57 /* Data.swift in Sources */,
 				44AA0012296F0E38005ADEA8 /* Country_Flag_HackwichApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

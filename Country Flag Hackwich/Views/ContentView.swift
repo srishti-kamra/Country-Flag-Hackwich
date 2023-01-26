@@ -1,21 +1,29 @@
-//
-//  ContentView.swift
-//  Country Flag Hackwich
-//
-//  Created by Srishti Kamra  on 1/11/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var quizManager = QuizManager()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            VStack(spacing: 40) {
+                VStack(spacing:20) {
+                    Text("Country Flag Game")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.yellow)
+                Text("Ready to test your skills?")
+                        .foregroundColor(.yellow)
+                }
+                NavigationLink {
+                    QuestionView()
+                        .environmentObject(quizManager)
+                } label: {
+                    CustomButton(text: "Start")
+                }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea(.all)
+            .background(.cyan)
         }
-        .padding()
     }
 }
 

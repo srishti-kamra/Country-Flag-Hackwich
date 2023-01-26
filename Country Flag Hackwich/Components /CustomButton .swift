@@ -10,9 +10,8 @@ import SwiftUI
 struct CustomButton: View {
     var text: String
     var background: Color = .yellow
-    
     var body: some View {
-        Text(text)
+Text(text)
             .foregroundColor(.cyan)
             .padding()
             .padding(.horizontal)
@@ -22,8 +21,8 @@ struct CustomButton: View {
     }
 }
 
-struct CustomButton__Previews: PreviewProvider {
+struct CustomButton_Previews: PreviewProvider {
     static var previews: some View {
-        CustomButton_(text: "Next")
+        CustomButton(text: "Next")
     }
 }
